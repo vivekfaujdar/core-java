@@ -1,0 +1,22 @@
+Java Architecture and Components (with Example)Java works in two main steps: a Java compiler converts human-readable .java source code into platform-independent bytecode (a .class file). Then, a platform-specific Java Virtual Machine (JVM) loads and interprets this bytecode, translating it into the machine code needed for the operating system and hardware to execute the program. This process enables Java's "Write Once, Run Anywhere" (WORA) capability. 
+Here's a breakdown of the workflow:
+Write the Java Code:
+You write your program using Java's syntax and structure in a text file, typically with a .java extension (e.g., HelloWorld.java).
+Compilation:
+The Java Development Kit (JDK) includes the Java compiler (javac).
+You use the javac command to compile your .java file.
+The compiler translates your source code into platform-independent bytecode, creating a .class file.
+Execution by the Java Virtual Machine (JVM):
+The JVM acts as a runtime engine, reading and executing the .class file (bytecode).
+For each operating system, there's a specific JVM.
+The JVM translates the bytecode into the specific machine code for that operating system and hardware. 
+The "Write Once, Run Anywhere" (WORA) principle: 
+Because the same bytecode can be run on any machine with a compatible JVM, a Java program doesn't need to be recompiled for different operating systems.
+The JVM is the key component that makes this portability possible. 
+Components of the Java Environment:
+JDK (Java Development Kit):
+Contains development tools like the compiler (javac), libraries, and the JRE. 
+JRE (Java Runtime Environment):
+Includes the JVM and the core Java libraries needed to run Java applications. 
+JVM (Java Virtual Machine):
+The engine that interprets the bytecode and provides the runtime environment. 
